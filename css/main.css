@@ -7,3 +7,12 @@ html {
 *: after {
     box-sizing: inherit;
 }
+
+#container {
+    background-color: #f4e7e7;
+    width: 85%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
