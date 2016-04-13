@@ -28,10 +28,15 @@ h3 {
     height: 50%;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
 nav ul li a {
     text-decoration: none;
     color: #171518;
 }
+
 
 .btn {
     -webkit-border-radius: 7;
@@ -84,4 +89,15 @@ nav ul li a {
     background-image: -o-linear-gradient(top, #f4e7e7, #fccbb8);
     background-image: linear-gradient(to bottom, #f4e7e7, #fccbb8);
     text-decoration: none;
+}
+
+@media (min-width: 650px) {
+
+    .btn {
+        display: inline;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+        margin-top: 1em;
+        padding: 0.2em 2.5em 0.2em 2.5em;
+    }
 }
