@@ -9,10 +9,19 @@ html {
 }
 
 #container {
-    background-color: rgba(244, 231, 231, 0.8);
+    background-color: rgba(244, 231, 231, 0.7);
     width: 85%;
     padding: 1em;
     margin-top: 1em;
     margin-left: 1em;
     font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#ashley {
+    width: 80%;
+    height: 80%;
 }

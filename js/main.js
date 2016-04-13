@@ -6,6 +6,7 @@ $( document ).ready( function() {
             "img/renwickstack.jpg",
             "img/renwickrainbow.jpg"
         ], {
-            duration: 4500, fade: 850 }
+            duration: 3900, fade: 850 }
         );
+
 } );
