@@ -10,26 +10,25 @@ html {
 
 #container {
     max-width: 1200px;
-    background-color: rgba(244, 231, 231, 0.7);
+    background-color: rgba(244, 231, 231, 0.8);
     width: 85%;
     margin-top: 1em;
     margin-left: 2em;
     font-family: 'Open Sans', sans-serif;
     padding-left: 1em;
-    padding-top: 1em;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: 'Rock Salt', cursive;
 }
 
 p {
     padding-bottom: -0.2em;
+    font-size: 0.8em;
 }
 
-#personal {
+#personal ul li {
     align-content: center;
     display: block;
 }
@@ -123,6 +122,14 @@ nav ul li a {
         margin-right: 1em;
         margin-bottom: 1em;
         width: calc(100% / 6 * 2);
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    main ul li {
+        font-size: 0.8em;
     }
 
 }
