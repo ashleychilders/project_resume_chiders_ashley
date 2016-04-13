@@ -9,6 +9,7 @@ html {
 }
 
 #container {
+    max-width: 1200px;
     background-color: rgba(244, 231, 231, 0.7);
     width: 85%;
     padding: 1em;
@@ -17,11 +18,12 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
+h2,
+h3 {
     font-family: 'Rock Salt', cursive;
 }
 
 #ashley {
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
 }
