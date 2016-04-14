@@ -13,7 +13,8 @@ html {
     background-color: rgba(244, 231, 231, 0.9);
     width: 85%;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     font-family: 'Open Sans', sans-serif;
     padding-left: 0.8em;
 }
@@ -34,6 +35,7 @@ h2 {
 
 h1 {
     padding-left: 0.8em;
+    font-size: 1.2em;
 }
 
 main p {
@@ -43,25 +45,17 @@ main p {
 
 #personal ul li {
     display: inline;
-    width: 25%;
-    height: 25%;
-}
-
-#personal ul li a {
-    text-decoration: none;
+    width: 45%;
+    height: 45%;
 }
 
 #ashley {
-    width: 50%;
-    height: 50%;
+    width: 55%;
+    height: 55%;
 }
 
 header ul li {
     text-decoration: none;
-}
-
-nav {
-    margin: auto;
 }
 
 nav ul li {
@@ -76,8 +70,8 @@ nav ul li a {
 }
 
 .icon {
-    width: 8%;
-    height: 8%;
+    width: 15%;
+    height: 15%;
     padding-right: 0.3em;
 }
 
@@ -87,7 +81,7 @@ nav ul li a {
     border-radius: 7px;
     font-family: 'Rock Salt', cursive;
     color: #5f5c61;
-    font-size: 1.1em;
+    font-size: 0.9em;
     padding: 0.2em 1.5em 0.2em 1.5em;
     text-decoration: none;
     width: 45%;
