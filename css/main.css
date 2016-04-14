@@ -41,7 +41,6 @@ main p {
 
 #personal ul li {
     display: inline-block;
-    padding-right: 0.6em;
 }
 
 #personal ul li a {
@@ -70,6 +69,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #171518;
+}
+
+.icon {
+    width: 50%;
+    height: 50%;
 }
 
 .btn {
@@ -132,11 +136,7 @@ nav ul li a {
     }
 
     #personal {
-        padding-left: 4.5em;
-    }
-
-    #personal ul li {
-        padding-right: 0.7em;
+        padding-left: 2em;
     }
 
     .btn {
