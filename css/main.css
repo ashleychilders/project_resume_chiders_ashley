@@ -16,7 +16,7 @@ html {
 
 #container {
     max-width: 1200px;
-    background-color: rgba(244, 231, 231, 0.8);
+    background-color: rgba(244, 231, 231, 0.9);
     width: 85%;
     margin-top: 1em;
     margin-left: 2em;
@@ -27,15 +27,25 @@ html {
 h1,
 h2 {
     font-family: 'Rock Salt', cursive;
+    padding: 0;
 }
 
-p {
+h1 {
+    padding-left: 0.8em;
+}
+
+main p {
     font-size: 0.8em;
+    padding: 0 0.3em;
 }
 
 #personal ul li {
-    align-content: center;
-    display: block;
+    display: inline-block;
+    padding-right: 0.6em;
+}
+
+#personal ul li a {
+    text-decoration: none;
 }
 
 #ashley {
@@ -45,6 +55,10 @@ p {
 
 header ul li {
     text-decoration: none;
+}
+
+nav {
+    margin: auto;
 }
 
 nav ul li {
@@ -111,7 +125,19 @@ nav ul li a {
     text-decoration: none;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
+
+    h1 {
+        padding-left: 3.2em;
+    }
+
+    #personal {
+        padding-left: 4.5em;
+    }
+
+    #personal ul li {
+        padding-right: 0.7em;
+    }
 
     .btn {
         display: inline;
@@ -121,8 +147,8 @@ nav ul li a {
     }
 
     #ashley {
-        width: 25%;
-        height: 25%;
+        width: 10%;
+        height: 10%;
         float: right;
         margin-right: 1em;
         margin-bottom: 1em;
@@ -130,11 +156,11 @@ nav ul li a {
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     main ul li {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
 }
