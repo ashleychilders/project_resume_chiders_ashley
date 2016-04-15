@@ -2,9 +2,9 @@ $( document ).ready( function() {
 
     $.backstretch(
         [
-            "img/renwickblack.jpg",
-            "img/renwickstack.jpg",
-            "img/renwickrainbow.jpg"
+            'img/renwickblack.jpg',
+            'img/renwickstack.jpg',
+            'img/renwickrainbow.jpg'
         ], {
             duration: 3900, fade: 850 }
         );
@@ -26,7 +26,7 @@ $( document ).ready( function() {
         function changeone () {
             var education = $( '#education' );
             education.css( {
-                'background-color': 'rgba(189, 223, 161, 0.7)'
+                'background-color': 'rgba(189, 223, 161, 0.5)'
             } );
         }
         education.addEventListener( 'mouseover', changeone );
@@ -34,7 +34,7 @@ $( document ).ready( function() {
         function changetwo () {
             var work = $( '#work' );
             work.css( {
-                'background-color': 'rgba(147, 194, 232, 0.6)'
+                'background-color': 'rgba(147, 194, 232, 0.4)'
             } );
         }
         work.addEventListener( 'mouseover', changetwo );
@@ -50,7 +50,7 @@ $( document ).ready( function() {
         function changefour () {
             var volunteer = $( '#volunteer' );
             volunteer.css( {
-                'background-color': 'rgba(252, 203, 184, 0.7)'
+                'background-color': 'rgba(252, 203, 184, 0.6)'
             } );
         }
         volunteer.addEventListener( 'mouseover', changefour );
