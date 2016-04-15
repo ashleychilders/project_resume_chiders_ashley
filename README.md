@@ -17,7 +17,7 @@ http://ashley-childers.com/resume/
 - http://www.unheap.com/user-interface/scrolling/anchorscroll-js-plugin-smooth-scrolling-anchor-targets/
 	- I used this site for adding the jQuery plugin for smooth scrolling on my site. This can be seen when clicking on the nav buttons.
 - http://srobbin.com/jquery-plugins/backstretch/
-	- I used this plugin to have the three background images rotate on my page. I took these images at the Renwick Gallery in Washington, DC.
+	- I used this plugin to have the three background images rotate on my page. After the page loads the images begin rotating. I took these images at the Renwick Gallery in Washington, DC.
 
 **Comments**
 
