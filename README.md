@@ -15,12 +15,10 @@ http://ashley-childers.com/resume/
 - https://www.iconfinder.com/iconsets/happily-colored-snlogo
 	- I used this site for the social media icons.
 - http://www.unheap.com/user-interface/scrolling/anchorscroll-js-plugin-smooth-scrolling-anchor-targets/
-	- I used this site for adding the jQuery plugin for smooth scrolling on my site.
+	- I used this site for adding the jQuery plugin for smooth scrolling on my site. This can be seen when clicking on the nav buttons.
+- http://srobbin.com/jquery-plugins/backstretch/
+	- I used this plugin to have the three background images rotate on my page. I took these images at the Renwick Gallery in Washington, DC. 
 
 **Comments**
 
 1.) For my custom JavaScript I set an event listener of mouseover for my different sections. When the mouse hovered over a specific section I color coded it to match the color used for the navigation buttons. I did this to set the different sections apart visually.
-
-2.) I used the backstretch plugin to have three images rotating in the background. I took these photos at the Renwick Gallery in Washington, DC.
-
-3.) I used the smooth scroll plugin to for a smooth scroll effect from my nav buttons to their corresponding sections. 
