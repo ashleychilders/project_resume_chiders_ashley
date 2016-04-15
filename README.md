@@ -1,5 +1,5 @@
 ## Link to Assignment on GitHub
-
+https://github.com/ashleychilders/project_resume_chiders_ashley
 
 ## Link to Assignment online
 http://ashley-childers.com/resume
@@ -23,4 +23,4 @@ http://ashley-childers.com/resume
 
 2.) I used the backstretch plugin to have three images rotating in the background. I took these photos at the Renwick Gallery in Washington, DC.
 
-3.) I used the smooth scroll plugin to for a seem-less scroll effect. 
+3.) I used the smooth scroll plugin to for a seem-less scroll effect.
