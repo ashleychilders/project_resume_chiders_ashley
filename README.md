@@ -2,7 +2,7 @@
 https://github.com/ashleychilders/project_resume_chiders_ashley
 
 ## Link to Assignment online
-http://ashley-childers.com/resume
+http://ashley-childers.com/resume/
 
 ### Resources
 
@@ -19,7 +19,7 @@ http://ashley-childers.com/resume
 
 **Comments**
 
-1.) For my custom JavaScript I set a listener event of mouseover for my different sections. When the mouse hovered over a specific section I color coded it to match the color used for the navigation buttons. I did this to set the different sections apart visually.
+1.) For my custom JavaScript I set an event listener of mouseover for my different sections. When the mouse hovered over a specific section I color coded it to match the color used for the navigation buttons. I did this to set the different sections apart visually.
 
 2.) I used the backstretch plugin to have three images rotating in the background. I took these photos at the Renwick Gallery in Washington, DC.
 
