@@ -23,4 +23,4 @@ http://ashley-childers.com/resume/
 
 2.) I used the backstretch plugin to have three images rotating in the background. I took these photos at the Renwick Gallery in Washington, DC.
 
-3.) I used the smooth scroll plugin to for a seem-less scroll effect.
+3.) I used the smooth scroll plugin to for a smooth scroll effect from my nav buttons to their corresponding sections. 
