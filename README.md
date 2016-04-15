@@ -21,4 +21,4 @@ http://ashley-childers.com/resume/
 
 **Comments**
 
-1.) For my custom JavaScript I set an event listener of mouseover for my different sections. When the mouse hovers over a specific section I color coded it to match the color used for the corresponding navigation button. I did this to set the different sections apart visually.
+1.) For my custom JavaScript I set an event listener of mouseover for my different sections. When the mouse hovers over a specific section the background color changes to match the corresponding navigation button. I did this to set the different sections apart visually.
