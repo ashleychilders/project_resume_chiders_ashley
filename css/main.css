@@ -226,16 +226,28 @@ nav ul li a {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
 
     #education {
-        align-content: center;
+        text-align: left;
     }
 
+    #menu {
+        margin-top: 1em;
+    }
     .btn {
-        padding: 0.1em 0.7em 0.1em 0.7em;
-        font-size: 1em;
+        padding: 0.1em 0.9em 0.1em 0.9em;
+        font-size: 1.2em;
         width: 80%;
+        margin-right: 0.2em;
+    }
+    #ashley {
+        width: 9%;
+        height: 9%;
+        float: right;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        width: calc(100% / 7 * 2);
     }
 
 }
