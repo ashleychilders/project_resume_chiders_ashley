@@ -14,8 +14,11 @@ html {
     box-sizing: inherit;
 }
 
-#container {
+.site-container {
     max-width: 1200px;
+}
+
+#container {
     background-color: rgba(244, 231, 231, 0.9);
     width: 85%;
     margin: 1.5em;
@@ -180,15 +183,18 @@ nav ul li a {
 
 }
 
-@media (min-width: 650px) {
+@media (min-width: 625px) {
 
     #education {
-        padding-top: 1em;
+        padding-top: 1.2em;
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 675px) {
 
+    #education {
+        align-content: center;
+    }
     #personal {
         padding-left: 1.5em;
     }
@@ -217,5 +223,26 @@ nav ul li a {
 
     #education {
         padding-top: 2em;
+    }
+}
+
+@media (min-width: 800px) {
+
+    #education {
+        align-content: center;
+    }
+
+    .btn {
+        padding: 0.1em 0.7em 0.1em 0.7em;
+        font-size: 1em;
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    #education {
+        text-align: inherit;
     }
 }
