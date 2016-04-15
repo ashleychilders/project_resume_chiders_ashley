@@ -31,6 +31,8 @@ $( document ).ready( function() {
         }
         education.addEventListener( 'mouseover', changeone );
 
+        //This is changing the color of the education section to green
+
         function changetwo () {
             var work = $( '#work' );
             work.css( {
@@ -38,6 +40,8 @@ $( document ).ready( function() {
             } );
         }
         work.addEventListener( 'mouseover', changetwo );
+
+        //This is changing the work section to blue with mouseover
 
         function changethree () {
             var skills = $( '#skills' );
@@ -47,6 +51,8 @@ $( document ).ready( function() {
         }
         skills.addEventListener( 'mouseover', changethree );
 
+        //This is changing the skills section color
+
         function changefour () {
             var volunteer = $( '#volunteer' );
             volunteer.css( {
@@ -54,4 +60,6 @@ $( document ).ready( function() {
             } );
         }
         volunteer.addEventListener( 'mouseover', changefour );
+
+        //This is changing the volunteer section color
 } );
