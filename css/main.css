@@ -141,7 +141,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 550px) {
 
     h1 {
         padding-left: 0.8em;
@@ -151,6 +151,7 @@ nav ul li a {
     .icon {
         width: 8%;
         height: 8%;
+        padding-right: 0.1em;
     }
 
     .btn {
@@ -179,16 +180,23 @@ nav ul li a {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 650px) {
+
+    #education {
+        padding-top: 1em;
+    }
+}
+
+@media (min-width: 700px) {
 
     #personal {
-        padding-left: 5em;
+        padding-left: 1.5em;
     }
 
     .icon {
         width: 9%;
         height: 9%;
-        padding-right: 1.5em;
+        padding-right: 0.6em;
     }
 
     #ashley {
@@ -202,8 +210,12 @@ nav ul li a {
     .btn {
         display: inline;
         margin-right: 0.1em;
-        margin-top: 1em;
+        margin-top: 0.8em;
         padding: 0.2em 0.8em 0.2em 0.8em;
-        font-size: 0.9em;
+        font-size: 1em;
+    }
+
+    #education {
+        padding-top: 2em;
     }
 }
