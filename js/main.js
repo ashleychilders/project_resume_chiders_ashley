@@ -26,7 +26,7 @@ $( document ).ready( function() {
         function changeone () {
             var education = $( '#education' );
             education.css( {
-                'background-color': 'rgba(189, 223, 161, 0.5)'
+                'background-color': 'rgba(189, 223, 161, 0.4)'
             } );
         }
         education.addEventListener( 'mouseover', changeone );
@@ -46,7 +46,7 @@ $( document ).ready( function() {
         function changethree () {
             var skills = $( '#skills' );
             skills.css( {
-                'background-color': 'rgba(237, 168, 206, 0.6)'
+                'background-color': 'rgba(237, 168, 206, 0.4)'
             } );
         }
         skills.addEventListener( 'mouseover', changethree );
@@ -56,7 +56,7 @@ $( document ).ready( function() {
         function changefour () {
             var volunteer = $( '#volunteer' );
             volunteer.css( {
-                'background-color': 'rgba(252, 203, 184, 0.6)'
+                'background-color': 'rgba(252, 203, 184, 0.4)'
             } );
         }
         volunteer.addEventListener( 'mouseover', changefour );
