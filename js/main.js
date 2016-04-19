@@ -23,13 +23,13 @@ $( document ).ready( function() {
             }
         } );
 
+        var education = $( '#education' );
         function changeone () {
-            var education = $( '#education' );
             education.css( {
                 'background-color': 'rgba(189, 223, 161, 0.4)'
             } );
         }
-        education.addEventListener( 'mouseover', changeone );
+        education.on( 'mouseover', changeone );
 
         //This is changing the color of the education section to green
 
